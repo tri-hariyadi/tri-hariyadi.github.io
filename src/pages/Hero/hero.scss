@@ -1,0 +1,17 @@
+.slick-slide img {
+  width: 100%;
+  height: 100vh;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 5s ease;
+}
+
+.img-hover-zoom img {
+  transition-delay: 1s;
+  transform: scale(1.5);
+}
