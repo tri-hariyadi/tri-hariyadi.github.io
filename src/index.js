@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import './index.css';
+import './assets/scss/index.scss';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.render(
-  // <React.StrictMode>
     <App />,
-  // </React.StrictMode>,
   document.getElementById('root')
 );
 

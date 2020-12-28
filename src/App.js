@@ -1,7 +1,7 @@
 import React from "react";
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
-import { Home } from './containers';
+import { Home } from './pages';
 
 const history = createBrowserHistory({
   basename: process.env.PUBLIC_URL,
@@ -10,7 +10,7 @@ const history = createBrowserHistory({
 function App() {
   return (
     <div className="App">
-      <Router history={history}>
+      <Router history={history} basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>

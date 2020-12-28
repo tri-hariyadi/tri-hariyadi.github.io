@@ -1,0 +1,35 @@
+@import 'variables';
+
+html body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: FSAlbert;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.text-button {
+  font-family: NunitoSemiBold;
+}
+
+.title-section{
+  font-family: NunitoBold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: #FFF;
+}
