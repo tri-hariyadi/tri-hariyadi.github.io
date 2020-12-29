@@ -12,7 +12,8 @@ import {
   ILHeroku,
   ILGitHub,
   ILSass,
-  ILMysql
+  ILMysql,
+  ILNextJs
 } from '../assets';
 
 const skillData = {
@@ -54,6 +55,10 @@ const skillData = {
     {
       name: 'SASS',
       imgSrc: ILSass
+    },
+    {
+      name: 'Next Js',
+      imgSrc: ILNextJs
     }
   ],
   backEnd: [

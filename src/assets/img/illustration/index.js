@@ -1,6 +1,6 @@
 import ILTri from './tri.png';
 import Javascript from './javascript.svg';
-import ILGolang from './go-6.svg';
+import ILGolang from './goLang.svg';
 import ILDart from './dart.png';
 import ILReact from './react.svg';
 import ILFlutter from './flutter.svg';
@@ -13,6 +13,7 @@ import ILGit from './git-icon.svg';
 import ILGitHub from './github.svg';
 import ILHeroku from './heroku.svg';
 import ILMysql from './mysql.svg';
+import ILNextJs from './nextjs.png';
 
 export{
   ILTri,
@@ -29,5 +30,6 @@ export{
   ILGit,
   ILGitHub,
   ILHeroku,
-  ILMysql
+  ILMysql,
+  ILNextJs
 }

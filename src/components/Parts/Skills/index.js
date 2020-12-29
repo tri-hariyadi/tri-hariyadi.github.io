@@ -5,7 +5,7 @@ import './index.scss';
 
 const Skills = () => {
   return (
-    <div className="skill-container">
+    <section className="skill-container">
       <div className="container">
         <Row>
           <Col>
@@ -90,7 +90,7 @@ const Skills = () => {
                           {skillData &&
                             skillData.dataBase.map((item, idx) => (
                               <span key={`fe-${idx}`} className="item-skill">
-                                <img src={item.imgSrc} alt={item.name} className="img-skill-db mr-3" /> {item.name}
+                                <img src={item.imgSrc} alt={item.name} className="img-skill mr-3" /> {item.name}
                               </span>
                             ))
                           }
@@ -119,7 +119,7 @@ const Skills = () => {
           </Col>
         </Row>
       </div>
-    </div>
+    </section>
   )
 }
 
